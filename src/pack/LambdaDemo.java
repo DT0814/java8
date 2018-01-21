@@ -145,7 +145,6 @@ public class LambdaDemo extends Thread {
                 }
                 System.out.println(new Date().getTime());
             }
-
         }).start();
         /*IntBinaryOperator intBinaryOperator = (int even, int odd) -> even + odd;
     new Thread(() -> System.out.println(intBinaryOperator.applyAsInt(1, 2))).start();*/
